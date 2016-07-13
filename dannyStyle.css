@@ -1,0 +1,340 @@
+* { 
+	margin: 0; 
+	padding: 0;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+}
+
+h2{
+	font-family: 'Kaushan Script', cursive;
+}
+
+h3{
+	font-size: 28px;
+	font-weight: 800;
+	margin-top: 50px;
+}
+
+h4{
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+h5{
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+section{
+	position: relative;
+}
+
+.secTitle{
+	font-size: 48px;
+	display: block;
+	text-align: center;
+}
+
+.sectLine{ 
+    display:block;
+    border:none;
+    color:white;
+    height:2px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+#offWhite{
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#f7f7f7));
+}
+
+#contact, #resume{
+	background-color: #F7F7F7;
+}
+
+#topBan{
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	
+	color: rgb(205, 255, 255);
+	font-family: 'Kaushan Script', cursive;
+	z-index: 20;
+}
+
+#homeBtn{
+	position: relative;
+	display: inline-block;
+	width: 150px;
+	height: 100%;
+	font-size: 28px;
+	color: white;
+	height: 75px;
+}
+
+#linksList{
+	list-style-type: none;
+	position: absolute;
+	display: inline-block;
+	height: 75px;
+	right: 5px;
+}
+
+.linkItem{
+	display: inline-block;
+	height: 100%;
+}
+
+section ul li a{
+	display: inline-block;
+	text-align: center;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: center;
+	padding: 17px 18px;
+	color: white;
+}
+
+section ul li a:hover{
+	background-color: rgb(205, 255, 255);
+	color: black;
+}
+
+#topContain{
+	position: relative;
+	width:100%;
+	height: 700px;
+	background: linear-gradient(
+		rgba(22, 17, 114,0.4), 
+		rgba(22, 17, 114,0.4)),
+		url("images\\blueBack.jpg");
+	background-size: 100%;
+}
+
+#contentContain{
+	display: inline-block;
+	position: absolute;
+	width: 1200px;
+	height: 450px;
+	top: 50%;
+	margin-top: -250px;
+	left: 50%;
+	margin-left: -600px;
+}
+
+#titleContain{
+	position: relative;
+	display:inline-block;
+	width: 300px;
+	height: 400px;
+	top: 50%;
+	margin-top: -200px;
+	left: 40px;
+}
+
+
+.titles{
+	position: absolute;
+	right: 0;
+	text-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+	color: rgb(160,177,203);
+	font-family: 'Playfair Display SC', serif;
+}
+
+#leader{
+	top: 25px;
+	right: -50px;
+	font-size: 18px;
+}
+
+#designer{
+	top:70px;
+	right: -25px;
+	font-size: 32px;
+}
+#developer{
+	top: 120px;
+	font-size: 72px;
+	color: rgb(255,253,171);
+}
+
+#friend{
+	top: 255px;
+	right: -25px;
+	font-size: 32px;
+}
+
+#analyst{
+	top: 345px;
+	right: -50px;
+	font-size: 18px;
+}
+
+#centerBox{
+	display: inline-block;
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	border: 6px solid rgb(160,177,203);
+	border-radius: 50%;
+	left: 50%;
+	margin-left: -225px;
+	background-image: url("images\\me.jpg");
+	background-size: cover;
+    background-position: -35px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
+#textContain{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	width: 450px;
+	height: 300px;
+	top: 50%;
+	margin-top: -150px;
+	background: rgb(255,253,171);
+	box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.5);
+	color: rgb(47,119,181);
+	z-index: 9;
+}
+
+#textBox{
+	position: absolute;
+	right: 0;
+	width: 78%;
+	height: 100%;
+}
+
+#welcomeTitle{
+	position: relative;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 48px;
+	left: 5px;
+}
+
+#welcomeText{
+	font-size: 18px;
+}
+
+#lowerContainer{
+	position: relative;
+	margin: auto;
+}
+
+.lowContent{
+	position: relative;
+	margin: auto;
+	width: 50%;
+	min-width: 700px;
+	font-size: 18px;
+}
+
+#jobs{
+	position: relative;
+	left: 20px;
+	list-style-position: inside;
+}
+
+.whiteSects{
+	position: relative;
+	margin-top: 50px;
+}
+
+.resumeBox{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.resumeText{
+	display: inline-block; 
+	position: relative;
+	width: 64%;
+	margin-left: 200px;
+}
+
+.resPicContain{
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+}
+
+.resList{
+	position: relative;
+	left: 20px;
+}
+
+#eduContain{
+	position: relative;
+}
+
+#uwecImg{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 10%;
+}
+
+.achieveContain{
+	position: relative;
+	width: 100%;
+}
+
+.achieveText{
+	position: relative;
+	width: 64%;
+}
+
+#devImg{
+	display: inline-block;
+	position: absolute;
+	top: -10px;
+	right: 15%;
+}
+
+#busImg{
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 12%;
+}
+
+.projectText{
+	display: inline-block;
+	position: relative;
+	width: 54%;
+}
+
+.projectExample{
+	display: inline-block;
+	position: absolute;
+	width: 44%;
+	height: 100%;
+	right: 0;
+}
+
+video{
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	max-height: 90%;
+	right: -10px;
+}
+
+#androidVid{
+	top: 70px;
+}
+
+#pyVid{
+	top: 200px;
+}
